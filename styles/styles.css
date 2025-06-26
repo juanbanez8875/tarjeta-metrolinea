@@ -1,0 +1,16 @@
+.tarjeta {
+    width: 300px; 
+    margin: 20px auto;
+    background: linear-gradient(to top right, white 15%, #b3e6b3 20%, #66cc66 40%, #006400 100%);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .contenido {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
