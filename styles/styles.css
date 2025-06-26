@@ -1,16 +1,32 @@
+body{
+  box-sizing: border-box;
+  height: fit-content;
+}
 .tarjeta {
-    width: 300px; 
-    margin: 20px auto;
-    background: linear-gradient(to top right, white 15%, #b3e6b3 20%, #66cc66 40%, #006400 100%);
-    border-radius: 10px;
-    overflow: hidden;
-  }
   
-  .contenido {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
+  width: 300px; 
+  height: 200px;
+  border: 2px solid #006400;
+  background: linear-gradient(to top right, white 25%, #b3e6b3 20%, #66cc66 40%, #006400 100%);
+  background-color: #b3e6b3;
+  display:flex;
+  justify-self: center;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-sriff;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rga(0,0,0.0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 28%;
+}
+  
+.contenido {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
